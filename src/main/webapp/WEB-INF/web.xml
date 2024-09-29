@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<context-param>
+		<param-name>globalDBUrl</param-name>
+		<param-value>jdbc:mysql://localhost:3306/globalDB</param-value>
+	</context-param>
+	<context-param>
+		<param-name>supportEmail</param-name>
+		<param-value>support@simplilearn.com</param-value>
+	</context-param>
+</web-app>
